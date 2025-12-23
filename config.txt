@@ -1,8 +1,11 @@
 # Configuration File v1.0
 [General]
 Project_Name = My_Service
-Version = 1.0.0
+Version = 1.0.1-alpha
 Environment = DEFAULT
 [Test_Settings]
 Logging_Level = DEBUG
 Database_URL = http://test-db:5432
+[Dev_Settings]
+Logging_Level = TRACE
+Database_URL = http://localhost:8080
