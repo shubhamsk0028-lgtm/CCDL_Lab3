@@ -3,3 +3,6 @@
 Project_Name = My_Service
 Version = 1.0.0
 Environment = DEFAULT
+[Test_Settings]
+Logging_Level = DEBUG
+Database_URL = http://test-db:5432
